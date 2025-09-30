@@ -9,7 +9,7 @@ class CatalogoApp {
     this.carrito = [];
     this.puntosTotales = 0;
     this.logoEmpresa = "logo.png";
-    this.apiURL = "Thttps://script.google.com/macros/s/AKfycbydkL54v0RSMbAh39RRDG97DOc6ASuB7UvZl3UDQoUdH55fG-063o7pcTTRlrhbgEJK2A/exec"; // 👈 Pega aquí la URL del Apps Script publicado
+    this.apiURL = "https://script.google.com/macros/s/AKfycbydkL54v0RSMbAh39RRDG97DOc6ASuB7UvZl3UDQoUdH55fG-063o7pcTTRlrhbgEJK2A/exec"; // 👈 Pega aquí la URL del Apps Script publicado
   }
 
   async iniciar() {
@@ -211,3 +211,4 @@ class CatalogoApp {
     });
   }
 }
+
