@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo de Productos</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <button id="modoOscuroToggle" class="modo-oscuro-toggle">🌓</button>
-    <img id="logoEmpresa" src="logo.png" alt="Logo de la Empresa" class="logo-empresa">
+    <div class="container">
+        <button id="modoOscuroToggle" class="modo-oscuro-toggle">🌓</button>
+        <img id="logoEmpresa" src="logo.png" alt="Logo de la Empresa" class="logo-empresa">
 
-    <div class="buscador-container">
-      <input type="text" id="buscador" class="buscador" placeholder="Buscar productos...">
+        <div class="buscador-container">
+            <input type="text" id="buscador" class="buscador" placeholder="Buscar productos...">
+        </div>
+
+        <div id="resultadosBusqueda" class="resultados-busqueda"></div>
+
+        <h1>Catálogo de Productos</h1>
+        <div id="catalogo" class="catalogo"></div>
+
+        <div class="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <p>Total: $<span id="totalCompra">0</span></p>
+            <p>Puntos Acumulados: <span id="puntosTotales">0</span></p>
+            <button id="botonCompra">Comprar</button>
+        </div>
     </div>
-    <div id="resultadosBusqueda" class="resultados-busqueda"></div>
-
-    <h1>Catálogo de Productos</h1>
-    <div id="catalogo" class="catalogo"></div>
-
-    <div class="carrito">
-      <h2>Carrito de Compras</h2>
-      <ul id="listaCarrito"></ul>
-      <p>Total: $<span id="totalCompra">0</span></p>
-      <p>Puntos Acumulados: <span id="puntosTotales">0</span></p>
-      <button id="botonCompra">Comprar</button>
-    </div>
-  </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
